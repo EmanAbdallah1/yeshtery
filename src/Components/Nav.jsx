@@ -156,39 +156,39 @@ export default class Nav extends Component {
             <div className="collapse navbar-collapse m-auto" id="navbarNavDropdown">
               <ul className="navbar-nav m-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <Link className="nav-link" aria-current="page" to='/'>
                     Men
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to='/Women'>
                     Women
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to='/Unisex'>
                     Unisex
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to='/Kids'>
                     Kids
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
+                  <Link className="nav-link" to='/BestSellers'>
                     Best Sellers
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    New Arrivals
-                  </a>
+                  <Link className="nav-link" to='/NewArrivals'>
+                    NewArrivals
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-danger" href="#">
+                  <Link className="nav-link text-danger" to='/Offers'>
                     Offers
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
