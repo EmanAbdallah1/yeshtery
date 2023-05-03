@@ -109,8 +109,7 @@ export default class App extends Component {
         onAddToCart={this.handleAddToCart}
         handleAddItemToCart={this.handleAddItemToCart}
         value={this.state.value}
-        increment={this.increment}
-        decrement={this.decrement}
+      
         cartItems={cartItems}
         imgsrc={this.state.productInfo.imgsrc}
       
